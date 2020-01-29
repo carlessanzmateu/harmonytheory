@@ -6,8 +6,8 @@ const contentMap = {
         componentType: "topTitle",
         translationKey: "FOO.BAR.QUZ"
       },
-      content: {
-        sectionOne: {
+      content: [
+        {
           title: {
             componentType: "contentTitle",
             translationKey: "FOO.BAR.QUZ"
@@ -21,7 +21,7 @@ const contentMap = {
             translationKey: "FOO.BAR.QUZ"
           }
         },
-        sectionTwo: {
+        {
           title: {
             componentType: "contentTitle",
             translationKey: "FOO.BAR.QUZ"
@@ -31,31 +31,7 @@ const contentMap = {
             translationKey: "FOO.BAR.QUZ"
           }
         },
-        sectionThree: {
-          title: {
-            componentType: "contentTitle",
-            translationKey: "FOO.BAR.QUZ"
-          },
-          textOne: {
-            componentType: "contentText",
-            translationKey: "FOO.BAR.QUZ"
-          },
-          image: {
-            componentType: "contentImage",
-            translationKey: "FOO.BAR.QUZ"
-          }
-        },
-        sectionFour: {
-          title: {
-            componentType: "contentTitle",
-            translationKey: "FOO.BAR.QUZ"
-          },
-          textOne: {
-            componentType: "contentText",
-            translationKey: "FOO.BAR.QUZ"
-          }
-        },
-        sectionFive: {
+        {
           title: {
             componentType: "contentTitle",
             translationKey: "FOO.BAR.QUZ"
@@ -69,7 +45,31 @@ const contentMap = {
             translationKey: "FOO.BAR.QUZ"
           }
         },
-        sectionSix: {
+        {
+          title: {
+            componentType: "contentTitle",
+            translationKey: "FOO.BAR.QUZ"
+          },
+          textOne: {
+            componentType: "contentText",
+            translationKey: "FOO.BAR.QUZ"
+          }
+        },
+        {
+          title: {
+            componentType: "contentTitle",
+            translationKey: "FOO.BAR.QUZ"
+          },
+          textOne: {
+            componentType: "contentText",
+            translationKey: "FOO.BAR.QUZ"
+          },
+          image: {
+            componentType: "contentImage",
+            translationKey: "FOO.BAR.QUZ"
+          }
+        },
+        {
           title: {
             componentType: "contentTitle",
             translationKey: "FOO.BAR.QUZ"
@@ -80,26 +80,28 @@ const contentMap = {
           },
           list: {
             componentType: "contentList",
-            elementOne: {
-              componentType: "contentListElement",
-              translationKey: "FOO.BAR.QUZ"
-            },
-            elementTwo: {
-              componentType: "contentListElement",
-              translationKey: "FOO.BAR.QUZ"
-            },
-            elementThree: {
-              componentType: "contentListElement",
-              translationKey: "FOO.BAR.QUZ"
-            },
-            elementFour: {
-              componentType: "contentListElement",
-              translationKey: "FOO.BAR.QUZ"
-            },
-            elementFive: {
-              componentType: "contentListElement",
-              translationKey: "FOO.BAR.QUZ"
-            }
+            elements: [
+              {
+                componentType: "contentListElement",
+                translationKey: "FOO.BAR.QUZ"
+              },
+              {
+                componentType: "contentListElement",
+                translationKey: "FOO.BAR.QUZ"
+              },
+              {
+                componentType: "contentListElement",
+                translationKey: "FOO.BAR.QUZ"
+              },
+              {
+                componentType: "contentListElement",
+                translationKey: "FOO.BAR.QUZ"
+              },
+              {
+                componentType: "contentListElement",
+                translationKey: "FOO.BAR.QUZ"
+              }
+            ]
           },
           textTwo: {
             componentType: "contentText",
@@ -110,7 +112,7 @@ const contentMap = {
             translationKey: "FOO.BAR.QUZ"
           }
         }
-      }
+      ]
     },
     meter: {},
     protonotation: {},
