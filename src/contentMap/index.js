@@ -2,7 +2,7 @@ import fundamentals from './fundamentals'
 
 const contentMap = {
   introduction: {},
-  fundamentals: fundamentals,
+  fundamentals,
   voiceLeadingAndModelComposition: {
     introductionToStricVoiceLeading: {},
     strictTwoVoiceComposition: {

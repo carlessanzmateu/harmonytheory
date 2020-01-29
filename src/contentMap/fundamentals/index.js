@@ -1,7 +1,7 @@
 import basicNotation from './fundamentals/basicNotation'
 
 export default {
-  basicNotation: basicNotation,
+  basicNotation,
   meter: {},
   protonotation: {},
   rhythmicValues: {},
