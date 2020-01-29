@@ -7,78 +7,78 @@ const contentMap = {
         translationKey: "FOO.BAR.QUZ"
       },
       content: [
-        {
-          title: {
+        [
+          {
             componentType: "contentTitle",
             translationKey: "FOO.BAR.QUZ"
           },
-          textOne: {
+          {
             componentType: "contentText",
             translationKey: "FOO.BAR.QUZ"
           },
-          image: {
+          {
             componentType: "contentImage",
             translationKey: "FOO.BAR.QUZ"
           }
-        },
-        {
-          title: {
+        ],
+        [
+          {
             componentType: "contentTitle",
             translationKey: "FOO.BAR.QUZ"
           },
-          textOne: {
+          {
             componentType: "contentText",
             translationKey: "FOO.BAR.QUZ"
           }
-        },
-        {
-          title: {
+        ],
+        [
+          {
             componentType: "contentTitle",
             translationKey: "FOO.BAR.QUZ"
           },
-          textOne: {
+          {
             componentType: "contentText",
             translationKey: "FOO.BAR.QUZ"
           },
-          image: {
+          {
             componentType: "contentImage",
             translationKey: "FOO.BAR.QUZ"
           }
-        },
-        {
-          title: {
+        ],
+        [
+          {
             componentType: "contentTitle",
             translationKey: "FOO.BAR.QUZ"
           },
-          textOne: {
+          {
             componentType: "contentText",
             translationKey: "FOO.BAR.QUZ"
           }
-        },
-        {
-          title: {
+        ],
+        [
+          {
             componentType: "contentTitle",
             translationKey: "FOO.BAR.QUZ"
           },
-          textOne: {
+          {
             componentType: "contentText",
             translationKey: "FOO.BAR.QUZ"
           },
-          image: {
+          {
             componentType: "contentImage",
             translationKey: "FOO.BAR.QUZ"
           }
-        },
-        {
-          title: {
+        ],
+        [
+          {
             componentType: "contentTitle",
             translationKey: "FOO.BAR.QUZ"
           },
-          textOne: {
+          {
             componentType: "contentText",
             translationKey: "FOO.BAR.QUZ"
           },
-          list: {
+          {
             componentType: "contentList",
             elements: [
               {
@@ -103,15 +103,15 @@ const contentMap = {
               }
             ]
           },
-          textTwo: {
+          {
             componentType: "contentText",
             translationKey: "FOO.BAR.QUZ"
           },
-          image: {
+          {
             componentType: "contentImage",
             translationKey: "FOO.BAR.QUZ"
           }
-        }
+        ]
       ]
     },
     meter: {},
