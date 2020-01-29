@@ -1,4 +1,4 @@
-import fundamentals from "./fundamentals";
+import fundamentals from './fundamentals'
 
 const contentMap = {
   introduction: {},
@@ -151,6 +151,6 @@ const contentMap = {
       usingTrinketInteractiveMusicNotation: {}
     }
   }
-};
+}
 
-export default contentMap;
+export default contentMap

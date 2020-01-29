@@ -1,4 +1,4 @@
-import basicNotation from "./fundamentals/basicNotation";
+import basicNotation from './fundamentals/basicNotation'
 
 export default {
   basicNotation: basicNotation,
@@ -12,4 +12,4 @@ export default {
   intervals: {},
   triadsAndSeventhChords: {},
   typesOfMotion: {}
-};
+}
