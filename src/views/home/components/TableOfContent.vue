@@ -5,10 +5,14 @@
       <h2>Fundamentals</h2>
       <ul>
         <li>
-          <a class="link" @click="goToContent()">Basic notation</a>
+          <a class="link" @click="goToContent(data.fundamentals.basicNotation)">
+            Basic notation
+          </a>
         </li>
         <li>
-          <a class="link" @click="goToContent()">Meter</a>
+          <a class="link" @click="goToContent(data.fundamentals.meter)">
+            Meter
+          </a>
         </li>
       </ul>
     </section>
@@ -16,6 +20,8 @@
 </template>
 
 <script>
+import { ROUTES } from '@/constants/routes'
+
 export default {
   name: 'TableOfContent',
   props: {
@@ -24,7 +30,12 @@ export default {
     }
   },
   methods: {
-    goToContent() {}
+    goToContent(value) {
+      this.$router.push({
+        name: ROUTES.CONTENT.name,
+        params: { titleAndContent: value }
+      })
+    }
   }
 }
 </script>

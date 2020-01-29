@@ -8,7 +8,7 @@ export const ROUTES = {
     name: 'about'
   },
   CONTENT: {
-    path: '/content',
+    path: '/content/:titleAndContent',
     name: 'content'
   }
 }

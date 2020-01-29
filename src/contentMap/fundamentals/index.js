@@ -1,4 +1,4 @@
-import basicNotation from './fundamentals/basicNotation'
+import basicNotation from './basicNotation'
 
 export default {
   basicNotation,

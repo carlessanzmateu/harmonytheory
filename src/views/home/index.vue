@@ -6,22 +6,17 @@
 </template>
 
 <script>
+import contentMap from '@/contentMap'
+
 export default {
   name: 'Home',
   components: {
     TableOfContent: () => import('@/views/home/components/TableOfContent')
   },
-  data: () => ({
-    data: {
-      fundamentals: {
-        basicNotation: {
-          title: {
-            componentType: 'topTitle',
-            translationKey: 'FOO.BAR.QUZ'
-          }
-        }
-      }
+  computed: {
+    data() {
+      return contentMap
     }
-  })
+  }
 }
 </script>
