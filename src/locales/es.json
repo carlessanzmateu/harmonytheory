@@ -1,3 +1,37 @@
 {
-  "message": "hello i18n !!"
+  "TABLE_OF_CONTENT": {
+    "INTRODUCTION": {
+      "TITLE": "Introduction",
+      "CONTENT": {
+        "INTRODUCTION_TO_THIS_TEXTBOOK": "Introduction to this “textbook” (for instructors & scholars)."
+      }
+    },
+    "FUNDAMENTALS": {
+      "TITLE": "Fundamentals",
+      "CONTENT": {
+        "BASIC_NOTATION": "Basic notation.",
+        "METER": "Meter.",
+        "PRONOTATION": "Protonotation.",
+        "RHYTHMIC_VALUES": "Rhythmic values.",
+        "BEAMS_AND_BORROWED_DIVISIONS": "Beams and borrowed divisions.",
+        "PITCHES": "Pitches.",
+        "SCALES_AND_SCALE_DEGREES": "Scales and scale degrees.",
+        "KEY_SIGNATURES": "Key signatures.",
+        "INTERVALS": "Intervals.",
+        "TRIADS_AND_SEVENTH_CHORDS": "Triads and seventh chords.",
+        "TYPES_OF_MOTION": "Types of motion."
+      }
+    }
+  },
+  "CONTENT": {
+    "FUNDAMENTALS": {
+      "BASIC_NOTATION": {
+        "PAGE_TITLE": "Basic notation",
+        "SECTION_ONE": {
+          "TITLE": "Notes",
+          "TEXT": "When written on a staff, a note indicates a pitch and rhythmic value. The notation consists of a <em>notehead</em> (either empty or filled in), and optionally can include a <em>stem</em>, <em>beam</em>, <em>dot</em>, or <em>flag</em>"
+        }
+      }
+    }
+  }
 }
